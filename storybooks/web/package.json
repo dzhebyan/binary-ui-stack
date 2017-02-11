@@ -1,0 +1,16 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -o ../../docs"
+  },
+  "dependencies": {
+    "react-redux": "^4.4.2",
+    "redux": "^3.4.0"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
+  }
+}

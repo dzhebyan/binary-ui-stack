@@ -1,0 +1,9 @@
+export const SETTINGS = 'settings';
+export const GENERAL = 'general';
+export const ACCOUNT = 'account';
+export const SUPPORT = 'support';
+export const COMBOBOX = 'combobox';
+export const ACTION_SHEET = 'action-sheet';
+export const SIGN_OUT = 'sign-out';
+export const LIST_TEXT = 'list-text';
+export const COMBOBOX_PLACEHOLDER = 'combobox-placeholder';
