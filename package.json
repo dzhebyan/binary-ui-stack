@@ -1,6 +1,6 @@
 {
   "name": "binary-ui-stack",
-  "version": "0.0.1-rc.1",
+  "version": "0.0.1-rc.2",
   "description": "React components that implement Cards' Binary Design.",
   "keywords": [
     "react",
