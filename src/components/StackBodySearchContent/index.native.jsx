@@ -2,16 +2,13 @@ import React from 'react';
 
 const propTypes = {
   children: React.PropTypes.func,
-  isHardRender: React.PropTypes.bool,
   pageHeight: React.PropTypes.number.isRequired,
   searchPlaceholder: React.PropTypes.string,
   searchValue: React.PropTypes.string,
   onSearchValueChange: React.PropTypes.func,
 };
 
-const defaultProps = {
-  isHardRender: true,
-};
+const defaultProps = {};
 
 export default class StackBodySearchContent extends React.Component {
 

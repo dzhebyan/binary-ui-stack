@@ -59,7 +59,6 @@ export class PersonalMyCardsMainPageComponent extends React.Component {
         onCloseDone={ function() { } }
       >
         <StackBodySearchContent
-          isHardRender
           pageHeight={this.props.pageHeight}
           searchValue={this.state.searchValue}
           onSearchValueChange={this.onSearchValueChange}

@@ -7,16 +7,13 @@ import { STACK_HEADER_HEIGHT } from '../../utils/styles';
 
 const propTypes = {
   children: React.PropTypes.func,
-  isHardRender: React.PropTypes.bool,
   pageHeight: React.PropTypes.number.isRequired,
   searchPlaceholder: React.PropTypes.string,
   searchValue: React.PropTypes.string,
   onSearchValueChange: React.PropTypes.func,
 };
 
-const defaultProps = {
-  isHardRender: true,
-};
+const defaultProps = {};
 
 export default class StackBodySearchContent extends React.Component {
 
@@ -24,20 +21,12 @@ export default class StackBodySearchContent extends React.Component {
     super(props);
     this.containerDom = undefined;
     this.onInitScrollPosition = this.onInitScrollPosition.bind(this);
-    this.onScroll = this.onScroll.bind(this);
   }
 
   onInitScrollPosition(containerDom) {
     if (containerDom) {
       this.containerDom = containerDom;
       this.containerDom.scrollTop = LIST_ITEM_HEIGHT;
-    }
-  }
-
-  onScroll() {
-    const { isHardRender } = this.props;
-    if (!isHardRender) {
-      this.forceUpdate();
     }
   }
 
@@ -67,7 +56,6 @@ export default class StackBodySearchContent extends React.Component {
       <StackBodySearchContentWrapper
         innerRef={this.onInitScrollPosition}
         style={containerDomStyle}
-        onScroll={this.onScroll}
       >
         <StackSearchWrapper>
           <StackSearch
