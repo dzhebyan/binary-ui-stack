@@ -49,7 +49,8 @@ export default class StackBodySearchContent extends React.Component {
     const containerDomStyle = {
       height: stackHeight,
       overflowX: 'hidden',
-      overflowY: 'auto',
+      overflowY: 'scroll',
+      WebkitOverflowScrolling: 'touch',
     };
     const scrollPosition = this.getScrollPosition();
     return (
