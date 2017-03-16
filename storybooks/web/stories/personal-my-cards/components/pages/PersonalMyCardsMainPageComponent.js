@@ -65,32 +65,42 @@ export class PersonalMyCardsMainPageComponent extends React.Component {
         >
           {() => (
             <div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
-              <div>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
+              <div style={{ height: 50, scrollSnapAlign: 'start' }}>Content with Search</div>
             </div>
           )}
         </StackBodySearchContent>

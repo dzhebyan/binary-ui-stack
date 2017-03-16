@@ -7,4 +7,5 @@ export default styled.div`
   display: flex;
   height: ${LIST_ITEM_HEIGHT}px;
   justify-content: center;
+  scroll-snap-align: start;
 `;
